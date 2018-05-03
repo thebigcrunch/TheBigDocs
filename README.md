@@ -20,12 +20,12 @@ The Big Crunch is currently in its Alpha stage of development. There is much to 
 
 The Big Crunch has been designed and built with following manifesto driving every decision:
 
-|
-|:---
-|Value Creation Is Everything|
-|Data Should be Linked. Links Should Be Transparent
-|All Changes Should Propagate in Real Time
-|The Internet Has A Lot More To Give|
-|Advertising Undermines Autheneticity|
-|Your Information is Your Information|
-|No Dark Patterns|
+|                                                    |
+| :------------------------------------------------- |
+| Value Creation Is Everything                       |
+| Data Should be Linked. Links Should Be Transparent |
+| All Changes Should Propagate in Real Time          |
+| The Internet Has A Lot More To Give                |
+| Advertising Undermines Autheneticity               |
+| Your Information is Your Information               |
+| No Dark Patterns                                   |
