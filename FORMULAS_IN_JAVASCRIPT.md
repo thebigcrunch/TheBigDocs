@@ -75,8 +75,9 @@ Parameters defined for your cell are considered mandatory. If they are not linke
 
 Parameters are usually single values, but you can also select a range of cells and `SHIFT-Drag` them onto a parameter.
 
-<a id="libfunc"/>
 # Library Functions
+
+<a id="libfunc"/>
 
 ## Array
 
