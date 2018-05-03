@@ -1,11 +1,11 @@
 # The Big Docs
 
-Welcome to the crunch - the next evolution in online publishing. You are here because you are a pioneer. Our hope is to empower you to create amazing online value to share with the world. The documents herein will help.
+Welcome to the crunch - a revolution in online information sharing. You are here because you are a pioneer. Our hope is to empower you to create amazing online value to share with the world. The documents herein will help.
 
 ## Table Of Contents
 
 * [Formulas In JavaScript](./FORMULAS_IN_JAVASCRIPT.md)
-  * [Function reference]()
+  * [Function reference](./FORMULAS_IN_JAVASCRIPT.md#libfunc)
   * [Example formulas]()
 * [Creating Visualizations](VIZZIES.md)
   * [Example 'vizzies']()
@@ -32,7 +32,7 @@ The Big Crunch has been designed with following manifesto driving every decision
 
 * * &mdash; -
 
-## Drivers of the Concept
+## Numbers On The Internet Are Dead
 
 The Big Crunch was conceived based on the following drivers:
 
