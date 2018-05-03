@@ -20,7 +20,7 @@ The Big Crunch is currently in its Alpha stage of development. There is much to 
 
 The Big Crunch has been designed and built with following manifesto driving every decision:
 
-|                                                    |
+| The Big Manifesto                                  |
 | :------------------------------------------------- |
 | Value Creation Is Everything                       |
 | Data Should be Linked. Links Should Be Transparent |
