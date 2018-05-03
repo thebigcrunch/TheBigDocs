@@ -1,6 +1,6 @@
 # Big Crunch Formulas In JavaScript
 
-This is the Alpha documentation for authoring JavaScript formulas in TheBigCrunch. It covers the JavaScript API, built-in functions, and examples for creating formulas in The Big Crunch.
+This is the Alpha documentation for authoring JavaScript formulas in The Big Crunch. It covers the JavaScript API, built-in functions list, and various examples for creating interesting formulas.
 
 ## Creating a Formula
 
@@ -75,9 +75,9 @@ Parameters defined for your cell are considered mandatory. If they are not linke
 
 Parameters are usually single values, but you can also select a range of cells and `SHIFT-Drag` them onto a parameter.
 
-# Library Functions
+# Functions List
 
-<a id="libfunc"/>
+<a id="funclist"/>
 
 ## Array
 
