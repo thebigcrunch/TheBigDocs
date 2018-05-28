@@ -47,4 +47,9 @@ Creates a new connection to The Big Crunch and calls the `changeCallback` functi
     * `value` (string) same as the first parameter `value`
     * `properties` (Object) a map of the properties for the cell. Includes font styling.
     * `layers` (Object) a map of the layers for the cell
-    * `cellSize` (Object) the size of the merge of the cell (x, y)
+    * `cellSize` (Object) the size of the merge of the cell (x, y)z
+    * `contentType` the type of the content, similar to a mime type. The currently supported types are
+      * `text/text`
+      * `video/youtube`
+      * `image/png`
+      * `image/gif`
