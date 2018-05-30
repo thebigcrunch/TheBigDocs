@@ -126,6 +126,7 @@ The top left of a merge is where the value will appear in an array and the other
 
 The above range produces an array `[[1,4,7],[null,null,8],[null,6, null]]`
 
+<a name="functions"></a>
 # Inbuilt functions
 
 ## TBC.Math

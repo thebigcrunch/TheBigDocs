@@ -5,12 +5,9 @@ Welcome to the crunch - a revolution in online information sharing. You are here
 ## Table Of Contents
 
 * [Formulas In JavaScript](./FORMULAS_IN_JAVASCRIPT.md)
-  * [Function reference](./FORMULAS_IN_JAVASCRIPT.md#funclist)
-  * [Example formulas](./formula_examples)
-* [Creating Visualizations](VIZZIES.md)
-  * [Example 'vizzies']()
+  * [Function reference](./FORMULAS_IN_JAVASCRIPT.md#functions)
+* [Creating Visualizations](Visualisations.md)
 * [The Embedding SDK](./TBC_SDK.md)
-* [User Interface Features]()
 
 ## Contributions
 
