@@ -93,9 +93,9 @@ The code above produces the following cell
 
 ### Code Restrictions
 
-There are a number of things you cannot do in your code, such as network calls, file system access, `set_timeout` etc. These are in place for security reasons. You can use most built-in JavaScript but cannot require the NodeJS modules. 
+There are a number of things you cannot do in your code, such as network calls, file system access, `set_timeout` etc. These are in place for security reasons. You can use most built-in JavaScript functions but cannot require any NodeJS modules. 
 
-The maximum execution time for a function is 20 seconds.
+The maximum execution time for a function is 20 seconds. If your function does not produce a result within this time, an error is thrown.
 
 The value result of a formula must change for the cell to update. If only the properties of a cell change the styles will not update on the cell.
 
