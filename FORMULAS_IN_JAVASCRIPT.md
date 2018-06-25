@@ -36,7 +36,7 @@ would result in `11` as the value of the cell.
 
 ### Changing Cell Properties
 
-You can also change the cell content properties of the cell in your code. The properties are the cells styling attributes seen in the right-hand side slider, for example `font-:
+You can also change the cell content properties of the cell in your code. The properties are the cells styling attributes seen in the right-hand side slider, for example `font-style`:
 
 <img src="https://user-images.githubusercontent.com/3023731/40693313-17709310-63fa-11e8-8356-417a11b0b5c2.png" style="width:300px"/>
 
