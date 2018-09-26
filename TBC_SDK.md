@@ -25,7 +25,7 @@ include in your HTML
 
 Or copy the embed code
 
-<img style="width: 400px" src="https://user-images.githubusercontent.com/3023731/46052490-08a8f580-c182-11e8-883d-ce198b1472fb.png"/>
+<img style="width: 400px" src="https://user-images.githubusercontent.com/3023731/46053094-d77df480-c184-11e8-8a1b-185eb9071f22.png"/>
 
 ### TBC API
 
