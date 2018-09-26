@@ -6,7 +6,7 @@ This is the Early Access (alpha) documentation for authoring JavaScript formulas
 
 JavaScript code formulas are created in The Big Crunch by selecting a cell and then either selecting the `f(x) Formula` button on the left hand side tool bar or pressing `SHIFT-=`. This changes the cell to a formula type and launches the code editor. You can enter your formula code in the main window and also create and manage your code's `inputs` (parameters) on this dialog.
 
-<img src="https://user-images.githubusercontent.com/3023731/40693269-de966eb6-63f9-11e8-8530-65d061e7bc5a.png" style="width:400px">
+<img src="https://user-images.githubusercontent.com/3023731/46051354-56226400-c17c-11e8-9651-561b26b87bbd.png" style="width:500px">
 
 Code can be any valid JavaScript (Node 7.2) with a few restrictions (below). The return value of your formula is simply the last `expression` in the formula.
 
@@ -22,7 +22,7 @@ A formula with:
 42 + 42;
 ```
 
-would make the value of the cell 84. You can also define and use functions to help you, for example:
+would make the value of the cell `84`. You can also define and use functions to help you, for example:
 
 ```javascript
 function addSix(value) {
@@ -108,8 +108,12 @@ Once an input is linked it can be referenced in the formula code just by using t
 ### Named Inputs
 Inputs are created with names in the formula editor's right hand pane. Valid names conform to the variable naming scheme in JavaScript.
 
+<img style="width: 200px" src="https://user-images.githubusercontent.com/3023731/46051405-a39ed100-c17c-11e8-91b6-0da1db446025.png">
+
 ### Unnamed Inputs
 You can also create inputs that have no name. These are created when you `Shift-Drag` a cell onto the formula and drop it on `Add new input` panel. Unamed inputs can be referenced in the function using the `inputs[]` array variable in your code. The unnamed inputs appear in the array in the same order they are in the formula editor input pane.
+
+<img style="width: 200px" src="https://user-images.githubusercontent.com/3023731/46051521-4bb49a00-c17d-11e8-8a6d-a7056942d5ce.png">
 
 ### Array Input Parameters
 

@@ -35,10 +35,10 @@ Visualisations in The Big Crunch are a powerful way to visualise data and create
 
 `TBC.vizzy({onChange, onConfig})`
 
-* `onChange` (function(inputs))
-  * `inputs` An object that represents all the inputs for the visualisation cell. If an input is named it can be addressed by it's name `inputs.param`. It can also be address using the array on the inputs object eg. `inputs[0]`. Nameless parameters are in the array but can't be addressed directly.
-* `onConfig` (function(configuration))
+- `onChange` (function(inputs))
+  - `inputs` An object that represents all the inputs for the visualisation cell. If an input is named it can be addressed by it's name `inputs.param`. It can also be address using the array on the inputs object eg. `inputs[0]`. Nameless parameters are in the array but can't be addressed directly.
+- `onConfig` (function(configuration))
 
 ## Restrictions
 
-To prevent cross site scripting attacks (XSS) visualisations are restricted from performing some actions. Visualisations run in a HTML 5 sandbox with the `allow-scripts` flag. [Iframe sandbox reference](https://www.w3schools.com/tags/att_iframe_sandbox.asp)
+To prevent cross site scripting attacks (XSS) visualisations are restricted from performing some actions. Visualisations run in a HTML 5 sandbox with the `allow-same-origin allow-scripts` flags additionally all visualisations are served from the `rur.bigcrunch.io` domain. [Iframe sandbox reference](https://www.w3schools.com/tags/att_iframe_sandbox.asp)
