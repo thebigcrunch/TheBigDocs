@@ -24,4 +24,4 @@ The Big Crunch was conceived based on the following drivers:
 * When information changes, notifications are rare
 * Most published information never changes
 * Ergo most published information is out of date
-
+* Most smart people cannot publish information to the internet
