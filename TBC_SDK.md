@@ -51,6 +51,8 @@ The callback receives a number properties about the cell, along with the value, 
     - `value` (String) same as the first parameter `value`
     - `properties` (Object) a map of the properties for the cell. Includes font styling.
     - `layers` (Object) a map of the layers for the cell (for infographics only)
+        - `zIndex` (Int) The number of the layer's apperance
+        - `location` (String) the spaceId of the cell that is layered. This can be used in `TBC.crunch(spaceId, changeCallback)`
     - `cellSize` (Object) the size of the merge of the cell (x, y)z
     - `contentType` the type of the content, similar to a mime type. The currently supported types are
       - `text/text`
