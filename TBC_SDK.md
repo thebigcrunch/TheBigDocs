@@ -25,7 +25,7 @@ include in your HTML
 
 Or copy the embed code
 
-<img style="width: 400px" src="https://user-images.githubusercontent.com/3023731/46053094-d77df480-c184-11e8-8a1b-185eb9071f22.png"/>
+<img style="width: 400px" src="https://user-images.githubusercontent.com/3023731/50318820-af015e80-0517-11e9-8c54-112b91274edb.png"/>
 
 ### TBC API
 
@@ -36,12 +36,13 @@ Or copy the embed code
 
 Creates a new connection to The Big Crunch and calls the `changeCallback` function with the cell value and details. Every time the cell changes the function is called again.
 
+#### Cell Object
+
 - `changeCallback(value, cell)`
   - `value` (String) The value of the cell depending on the type of the cell different values will be returned.
     - Scalar - the raw value in a string
     - Image - a fully qualified url for the image
-    - Visualisation -
-    - Layered Space - undefined
+    - Visualisation - null
   - `cell` (Object)
     - `type` (String) type of the cell, can be compared to TBC.types
     - `value` (string) same as the first parameter `value`

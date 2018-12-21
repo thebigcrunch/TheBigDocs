@@ -38,7 +38,7 @@ would result in `11` as the value of the cell.
 
 You can also change the cell content properties of the cell in your code. The properties are the cells styling attributes seen in the right-hand side slider, for example `font-style`:
 
-<img src="https://user-images.githubusercontent.com/3023731/40693313-17709310-63fa-11e8-8356-417a11b0b5c2.png" style="width:300px"/>
+<img src="https://user-images.githubusercontent.com/3023731/50318592-35b53c00-0516-11e9-9014-321d79573f1d.png" style="width:300px"/>
 
 To change a content property you need to a return an `Object` from your code with the properties as an attribute. The cell result in this case goes in the `value` property. This code would set the value of the cell to 66 and make it bold:
 

@@ -8,26 +8,26 @@ Visualisations in The Big Crunch are a powerful way to visualise data and create
 
 ```html
 <html>
-    <head>
-        <!-- Include the SDK -->
-        <script src="/tbc_sdk.js"></script>
-    </head>
-    <body>
-        <h1>This is a visualisation example</h1>
-        <p>The inputs are...</p>
-        <!-- a place to put our inputs -->
-        <p id="inputs"></p>
-        <script>
-            // This function will be called every time an input changes
-            function onChange(inputs) {
-                document.getElementById('inputs').innerHTML = JSON.stringify(inputs);
-                // Your code goes here....
-            }
+  <head>
+    <!-- Include the SDK -->
+    <script src="/tbc_sdk.js"></script>
+  </head>
+  <body>
+    <h1>This is a visualisation example</h1>
+    <p>The inputs are...</p>
+    <!-- a place to put our inputs -->
+    <p id="inputs"></p>
+    <script>
+      // This function will be called every time an input changes
+      function onChange(inputs) {
+        document.getElementById("inputs").innerHTML = JSON.stringify(inputs);
+        // Your code goes here....
+      }
 
-            // Setup the change event
-            TBC.vizzy({onChange: onChange});
-        </script>
-    </body>
+      // Setup the change event
+      TBC.vizzy({ onChange: onChange });
+    </script>
+  </body>
 </html>
 ```
 
@@ -35,8 +35,9 @@ Visualisations in The Big Crunch are a powerful way to visualise data and create
 
 `TBC.vizzy({onChange, onConfig})`
 
-- `onChange` (function(inputs))
+- `onChange` (function(inputs, cells))
   - `inputs` An object that represents all the inputs for the visualisation cell. If an input is named it can be addressed by it's name `inputs.param`. It can also be address using the array on the inputs object eg. `inputs[0]`. Nameless parameters are in the array but can't be addressed directly.
+  - `cells` An Array laid out of the same way as inputs, but instead of containing cell values it contains objects of the cells representations. See [here for the cell properties](./TBC_SDK.md)
 - `onConfig` (function(configuration))
 
 ## Restrictions
