@@ -6,7 +6,7 @@ Welcome to the crunch - a revolution in online information sharing. You are here
 There are three things you do with various APIs in The Big Crunch. They are covered in the documents below:
 
 1. Authoring cell [Formulas In JavaScript](./FORMULAS_IN_JAVASCRIPT.md), and the [function reference](./FORMULAS_IN_JAVASCRIPT.md#functions)
-1. [Creating visualizations](Visualisations.md) in cells
+1. [Creating visualizations](./VISUALIZATIONS.md) in cells
 1. Embedding cell content in your web page using [the embedding SDK](./TBC_SDK.md)
 
 ### Contributions
