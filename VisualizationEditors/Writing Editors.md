@@ -45,7 +45,7 @@ Valid controls in a table are
 
     Text
     Number
-    ColorPicker
+    ColourPicker
     Image
 
 
