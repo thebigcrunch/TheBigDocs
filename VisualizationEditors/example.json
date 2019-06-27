@@ -1,0 +1,76 @@
+{
+    "version": 1,
+    "tabs": [
+        {
+            "title": "Data",
+            "content": [
+                {
+                    "parameterName": "data",
+                    "control": "Table",
+                    "columns": [
+                        {
+                            "label": "Label",
+                            "control": "Text"
+                        },
+                        {
+                            "label": "Series 1",
+                            "control": "Number"
+                        },
+                        {
+                            "label": "Series 2",
+                            "control": "Number"
+                        },
+                        {
+                            "label": "Series 3",
+                            "control": "Number"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Configuration",
+            "content": [
+                {
+                    "parameterName": "palette",
+                    "control": "Selector",
+                    "options": ["normal", "mature", "colorful"],
+                    "label": "Color - Palette"
+                },
+                {
+                    "parameterName": "seriesType",
+                    "control": "Selector",
+                    "options": ["line", "bar", "area"],
+                    "label": "Series 1 Type"
+                },
+                {
+                    "parameterName": "seriesType2",
+                    "control": "Selector",
+                    "options": ["line", "bar", "area"],
+                    "label": "Series 2 Type"
+                },
+                {
+                    "parameterName": "seriesType3",
+                    "control": "Selector",
+                    "options": ["line", "bar", "area"],
+                    "label": "Series 3 Type"
+                },
+                {
+                    "parameterName": "seriesName",
+                    "control": "Text",
+                    "label": "Series 1 Name"
+                },
+                {
+                    "parameterName": "seriesName2",
+                    "control": "Text",
+                    "label": "Series 2 Name"
+                },
+                {
+                    "parameterName": "seriesName3",
+                    "control": "Text",
+                    "label": "Series 3 Name"
+                }
+            ]
+        }
+    ]
+}

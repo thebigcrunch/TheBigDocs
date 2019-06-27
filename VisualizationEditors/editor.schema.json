@@ -1,0 +1,96 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "object",
+    "title": "The Big Crunch Editor Editor Root",
+    "required": ["version", "tabs"],
+    "properties": {
+        "version": {
+            "$id": "#/properties/version",
+            "type": "integer",
+            "title": "Version",
+            "default": 1,
+            "examples": [1]
+        },
+        "tabs": {
+            "$id": "#/properties/tabs",
+            "type": "array",
+            "title": "The Tabs Schema",
+            "items": {
+                "$id": "#/properties/tabs/items",
+                "type": "object",
+                "title": "The Items Schema",
+                "required": ["title", "content"],
+                "properties": {
+                    "title": {
+                        "$id": "#/properties/tabs/items/properties/title",
+                        "type": "string",
+                        "title": "The title of the section",
+                        "default": "",
+                        "examples": ["Data"],
+                        "pattern": "^(.*)$"
+                    },
+                    "content": {
+                        "$id": "#/properties/tabs/items/properties/content",
+                        "type": "array",
+                        "title": "Controls inside the content",
+                        "items": {
+                            "$id": "#/properties/tabs/items/properties/content/items",
+                            "type": "object",
+                            "title": "The Items Schema",
+                            "required": ["parameterName", "control", "columns"],
+                            "properties": {
+                                "parameterName": {
+                                    "$id": "#/properties/tabs/items/properties/content/items/properties/parameterName",
+                                    "type": "string",
+                                    "title": "The Parametername Schema",
+                                    "default": "",
+                                    "examples": ["data"],
+                                    "pattern": "^(.*)$"
+                                },
+                                "control": {
+                                    "$id": "#/properties/tabs/items/properties/content/items/properties/control",
+                                    "type": "string",
+                                    "title": "The Control Schema",
+                                    "default": "",
+                                    "examples": ["Text", "Number", "Table"],
+                                    "pattern": "^(.*)$"
+                                },
+                                "columns": {
+                                    "$id": "#/properties/tabs/items/properties/content/items/properties/columns",
+                                    "type": "array",
+                                    "title": "The Columns Schema",
+                                    "items": {
+                                        "$id": "#/properties/tabs/items/properties/content/items/properties/columns/items",
+                                        "type": "object",
+                                        "title": "The Items Schema",
+                                        "required": ["label", "control"],
+                                        "properties": {
+                                            "label": {
+                                                "$id": "#/properties/tabs/items/properties/content/items/properties/columns/items/properties/label",
+                                                "type": "string",
+                                                "title": "The Label Schema",
+                                                "default": "",
+                                                "examples": ["Label"],
+                                                "pattern": "^(.*)$"
+                                            },
+                                            "control": {
+                                                "$id": "#/properties/tabs/items/properties/content/items/properties/columns/items/properties/control",
+                                                "type": "string",
+                                                "title": "The Control Schema",
+                                                "default": "",
+                                                "examples": ["Text", "Number"],
+                                                "pattern": "^(.*)$"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
